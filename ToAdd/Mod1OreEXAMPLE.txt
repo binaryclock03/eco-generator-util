@@ -1,0 +1,26 @@
+[
+  [
+    "Grassland",
+    5,
+    "300",
+    "Eco.WorldGenerator.StandardTerrainModule, Eco.WorldGenerator",
+    {
+      "BlockType": {
+        "$id": "301",
+        "Type": "Eco.Mods.TechTree.HewnLogFloorBlock, Eco.Mods"
+      },
+      "HeightRange": {
+        "min": -1.0,
+        "max": 1.0
+      },
+      "DepthRange": {
+        "min": 70.0,
+        "max": 80.0
+      },
+      "PercentChance": 0.25,
+      "NoiseFrequency": 5.0,
+      "NoiseType": "Perlin",
+      "NoiseDistributionType": "Blobs"
+    }
+  ]
+]
