@@ -36,43 +36,5 @@
         "z": 3.0
       }
     }
-  ],
-  [
-    "Grassland",
-    5,
-    "304",
-    "Eco.WorldGenerator.DepositTerrainModule, Eco.WorldGenerator",
-    {
-      "SpawnAtLeastOne": true,
-      "SpawnPercentChance": 0.5,
-      "DepthRange": {
-        "min":30.0,
-        "max":35.0
-      },
-      "DepositDepthRange": {
-        "min": 30.0,
-        "max": 35.0
-      },
-      "BlocksCountRange": {
-        "min": 1000.0,
-        "max": 8000.0
-      },
-      "BlockType": {
-        "$id": "305",
-        "Type": "Eco.Mods.TechTree.HewnLogFloorBlock, Eco.Mods"
-      },
-      "DirectionWeights": [
-        {
-          "x": 1.0,
-          "y": 1.0,
-          "z": 1.0
-        }
-      ],
-      "WeightVariance": {
-        "x": 3.0,
-        "y": 0.0,
-        "z": 3.0
-      }
-    }
   ]
 ]

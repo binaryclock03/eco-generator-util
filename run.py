@@ -5,9 +5,9 @@ import DataHandler.modules as md
 
 handler = jh.JsonHandler("./IN/WorldGenerator.eco")
 
-for files in os.listdir("./ToAdd"):
+for files in os.listdir("./IN"):
     if files.endswith(".txt"):
-        with open("./ToAdd/" + files, 'r') as file:
+        with open("./IN/" + files, 'r') as file:
             file = json.loads(file.read())
             for ore in file:
                 biome = ore[0]
