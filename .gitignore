@@ -1,7 +1,1 @@
-#ignore eco file in out
-./OUT/*.eco
-
-#ignore eco file in in
-./IN/*.eco
-#ignore txt file in in
-./IN/*.txt
+__pycache__

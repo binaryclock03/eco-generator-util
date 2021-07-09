@@ -1,0 +1,185 @@
+Grassland
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.RockySoilBlock, Eco.World
+    Min Depth: 2, Max Depth: 6
+  Index: 2, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 2, Max Depth: 15
+  Index: 3, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 15
+  Index: 4, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 60
+  Index: 5, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 60, Max Depth: 80
+  Index: 6, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 100
+
+RainForest
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.Mods.TechTree.ClayBlock, Eco.Mods
+    Min Depth: 4, Max Depth: 6
+  Index: 2, Contains: Eco.Mods.TechTree.ClayBlock, Eco.Mods
+    Min Depth: 1, Max Depth: 30
+  Index: 3, Contains: Eco.Mods.TechTree.ShaleBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 30
+  Index: 4, Contains: Eco.Mods.TechTree.ShaleBlock, Eco.Mods
+    Min Depth: 40, Max Depth: 45
+  Index: 5, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 60, Max Depth: 70
+  Index: 6, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 65, Max Depth: 100
+
+WarmForest
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.RockySoilBlock, Eco.World
+    Min Depth: 6, Max Depth: 15
+  Index: 2, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 20
+  Index: 3, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 20
+  Index: 4, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 65
+  Index: 5, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 100
+
+ColdForest
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.RockySoilBlock, Eco.World
+    Min Depth: 1, Max Depth: 3
+  Index: 2, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 5, Max Depth: 15
+  Index: 3, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 15
+  Index: 4, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 65
+  Index: 5, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 100
+
+Taiga
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.RockySoilBlock, Eco.World
+    Min Depth: 1, Max Depth: 3
+  Index: 2, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 20
+  Index: 3, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 20
+  Index: 4, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 65, Max Depth: 70
+  Index: 5, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 120
+
+Tundra
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.RockySoilBlock, Eco.World
+    Min Depth: 1, Max Depth: 3
+  Index: 2, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 30
+  Index: 3, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 30
+  Index: 4, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 65, Max Depth: 75
+  Index: 5, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 85
+
+Ice
+  Index: 0, Contains: Eco.World.Blocks.IceBlock, Eco.World
+    Min Depth: 0, Max Depth: 8
+  Index: 1, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 10, Max Depth: 30
+  Index: 2, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 30
+  Index: 3, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 60, Max Depth: 75
+  Index: 4, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 100
+
+Desert
+  Index: 0, Contains: Eco.World.Blocks.DesertSandBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 4, Max Depth: 6
+  Index: 2, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 1, Max Depth: 20
+  Index: 3, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 20
+  Index: 4, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 60
+  Index: 5, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 58, Max Depth: 65
+
+Ocean
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 4, Max Depth: 15
+  Index: 2, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 15
+  Index: 3, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 100
+
+DeepOcean
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 2, Max Depth: 10
+  Index: 2, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 100
+
+ColdCoast
+  Index: 0, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 5, Max Depth: 15
+  Index: 2, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 8, Max Depth: 14
+  Index: 3, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 12, Max Depth: 16
+  Index: 4, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 18, Max Depth: 30
+  Index: 5, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 28, Max Depth: 40
+  Index: 6, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 75
+  Index: 7, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 70, Max Depth: 100
+
+WarmCoast
+  Index: 0, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.World.Blocks.SandBlock, Eco.World
+    Min Depth: 4, Max Depth: 15
+  Index: 2, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 10, Max Depth: 15
+  Index: 3, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 18, Max Depth: 25
+  Index: 4, Contains: Eco.Mods.TechTree.LimestoneBlock, Eco.Mods
+    Min Depth: 18, Max Depth: 30
+  Index: 5, Contains: Eco.Mods.TechTree.SandstoneBlock, Eco.Mods
+    Min Depth: 37, Max Depth: 50
+  Index: 6, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 50, Max Depth: 55
+  Index: 7, Contains: Eco.Mods.TechTree.BasaltBlock, Eco.Mods
+    Min Depth: 55, Max Depth: 60
+
+Wetland
+  Index: 0, Contains: Eco.World.Blocks.DirtBlock, Eco.World
+    Min Depth: 0, Max Depth: 0
+  Index: 1, Contains: Eco.Mods.TechTree.ClayBlock, Eco.Mods
+    Min Depth: 8, Max Depth: 15
+  Index: 2, Contains: Eco.Mods.TechTree.ShaleBlock, Eco.Mods
+    Min Depth: 0, Max Depth: 15
+  Index: 3, Contains: Eco.Mods.TechTree.CoalBlock, Eco.Mods
+    Min Depth: 25, Max Depth: 30
+  Index: 4, Contains: Eco.Mods.TechTree.ShaleBlock, Eco.Mods
+    Min Depth: 32, Max Depth: 35
+  Index: 5, Contains: Eco.Mods.TechTree.CoalBlock, Eco.Mods
+    Min Depth: 34, Max Depth: 40
+  Index: 6, Contains: Eco.Mods.TechTree.GraniteBlock, Eco.Mods
+    Min Depth: 50, Max Depth: 60
+  Index: 7, Contains: Eco.Mods.TechTree.GneissBlock, Eco.Mods
+    Min Depth: 60, Max Depth: 100

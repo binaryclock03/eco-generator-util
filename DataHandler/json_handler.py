@@ -3,8 +3,8 @@ import DataHandler.modules as md
 
 class JsonHandler:
     def __init__(self, fileloc):
-        file = open(fileloc, "r").read()
-        self.jsonFile = json.loads(file)
+        self.file = open(fileloc, "r").read()
+        self.jsonFile = json.loads(self.file)
 
         self.biomedict = {"Grassland":0,"RainForest":1,"WarmForest":2,"ColdForest":3,"Taiga":4,"Tundra":5,"Ice":6,"Desert":7,"Ocean":8,"DeepOcean":9,"ColdCoast":10,"WarmCoast":11,"Wetland":12}
         self.stonetypesdict = {"Eco.World.Blocks.DirtBlock, Eco.World":"DirtBlock","Eco.Mods.TechTree.LimestoneBlock, Eco.Mods":"LimestoneBlock","Eco.Mods.TechTree.SandstoneBlock, Eco.Mods":"SandstoneBlock","Eco.Mods.TechTree.GraniteBlock, Eco.Mods":"GraniteBlock","Eco.Mods.TechTree.GneissBlock, Eco.Mods":"GneissBlock","Eco.Mods.TechTree.GneissBlock, Eco.Mods":"BasaltBlock"}
@@ -40,3 +40,24 @@ class JsonHandler:
         module.load(self.getBiomeLoc(biomeName)["Module"]["BlockDepthRanges"][moduleNumb])
         module.addSubmodule(subModule)
         self.getBiomeLoc(biomeName)["Module"]["BlockDepthRanges"][moduleNumb] = module.package()
+
+    def dumpTree(self, fileLoc):
+        file = open(fileLoc, "w")
+        for biome in self.jsonFile["TerrainModule"]["Modules"]:
+            file.write(biome["BiomeName"] + '\n')
+            moduleIndex = 0
+            for module in biome["Module"]["BlockDepthRanges"]:
+                mod = md.Module()
+                mod.load(module)
+                file.write(' ' * 2 + 'Index: ' + str(moduleIndex) + ', Contains: ' + str(mod.getBlockName(self)) + '\n')
+                file.write(' ' * 4 + 'Min Depth: ' + str(mod.min) + ', Max Depth: ' + str(mod.max) + '\n')
+                moduleIndex += 1
+            file.write('\n')
+
+    def getBlockFromRef(self, refId):
+        key = '"$id": ' + '"' + str(refId) + '",\n' #"$id": "16"
+        mystr = self.file
+        mystr = mystr.partition(key)[2].partition('\n')[0]
+        mystr = mystr.partition('"Type": "')[2].partition('"')[0]
+        return mystr
+        

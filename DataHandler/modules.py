@@ -108,9 +108,10 @@ class Module:
         '''add a new submodule into the submodule list in this module'''
         self.submodules.append(submodule)
 
-    def getBlockName(self):
-        '''returns the blockname of the block in the module, if the module does not have a block it returns None'''
+    def getBlockName(self, handler):
+        '''returns the blockname of the block in the module'''
         try:
             return self.blockType["Type"]
         except:
-            return None
+            return handler.getBlockFromRef(self.blockType["$ref"])
+            
