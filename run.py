@@ -1,7 +1,8 @@
 import json
 import os
 import DataHandler.json_handler as jh
-import DataHandler.modules as md
+import DataHandler.Module as md
+import DataHandler.SubModule as sb
 
 handler = jh.JsonHandler("./IN/WorldGenerator.eco")
 
@@ -16,8 +17,10 @@ for files in os.listdir("./IN"):
                 generatorType = ore[3]
                 params = ore[4]
 
-                deposit = md.SubModule()
+                deposit = sb.SubModule()
                 deposit.create(id, generatorType, params)
                 handler.addOre(biome, moduleIndex, deposit)
 
 handler.dumpJson("./OUT/WorldGenerator.eco")
+
+print("Done!")

@@ -1,5 +1,6 @@
 import json
-import DataHandler.modules as md
+import DataHandler.Module as md
+import DataHandler.SubModule as smd
 
 class JsonHandler:
     def __init__(self, fileloc):
@@ -49,9 +50,15 @@ class JsonHandler:
             for module in biome["Module"]["BlockDepthRanges"]:
                 mod = md.Module()
                 mod.load(module)
-                file.write(' ' * 2 + 'Index: ' + str(moduleIndex) + ', Contains: ' + str(mod.getBlockName(self)) + '\n')
-                file.write(' ' * 4 + 'Min Depth: ' + str(mod.min) + ', Max Depth: ' + str(mod.max) + '\n')
+                file.write('\t' + 'Contains: ' + str(mod.getBlockName(self)) + ', Min Depth: ' + str(mod.min) + ', Max Depth: ' + str(mod.max) +'\n')
+                
+                submodule:smd.SubModule
+                for submodule in mod.submodules:
+                    file.write('\t\t' + 'Block: ' + str(submodule.getBlockName()) + '\n')
+                    
+
                 moduleIndex += 1
+
             file.write('\n')
 
     def getBlockFromRef(self, refId):
